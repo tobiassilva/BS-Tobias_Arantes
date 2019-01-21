@@ -1,0 +1,68 @@
+/*
+Theme Name: BS-Tobias_Arantes
+Theme URI: http://localhost/BS-Tobias_Arantes/wordpress/
+Description: Site para Treinamento da EJ "Byron Solutions"
+Author: Tobias Arantes
+Author URI: http://localhost/BS-Tobias_Arantes/wordpress/
+Version: 1.0
+*/
+
+
+body{
+    padding: 0px;
+    margin: 0px;
+    line-height: 1.5;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 16px;
+    color: #000;
+    font-weight: 400;
+    background-color: #fff;
+}
+
+.divPageImpar{
+    height: 680px;
+    background-color: #1f282e;
+}
+
+.divPagePar{
+    height: 680px;
+    background-color: white;
+}
+
+/* HEADER */
+
+.topo{
+    position: fixed;
+    margin: 0px auto;
+    width: 100%;
+    height: 70px;
+    background-color: rgba(251, 251, 251, 0.70);
+    padding: 5px 10px;
+}
+
+.headerLeft{
+    display: inline-block;
+    margin-right: 25%;
+}
+
+.headerCenter{
+    display: inline-block;
+}
+
+.headerRight{
+    display: inline-block;
+    margin-left: 25%;
+}
+
+#header{
+    padding: 10px 0;
+    margin: 0;
+    text-align: center;
+}
+
+.logo {
+    width: 60px;
+    height: 60px;
+    background: url("http://localhost/BS-tobias_arantes/wordpress/wp-content/uploads/2019/01/logo-mobile.png") center center;
+}
+

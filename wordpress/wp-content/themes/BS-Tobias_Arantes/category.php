@@ -1,0 +1,1 @@
+<!-- Responsavel por abrir as categorias do blog -->
