@@ -8,11 +8,17 @@ Version: 1.0
 */
 
 
+@font-face{
+    font-family: 'fontePlay';
+    src: url("assets/fonts/PlayfairDisplaySC-Regular.otf");
+}
+
+
 body{
     padding: 0px;
     margin: 0px;
     line-height: 1.5;
-    font-family: 'Open Sans',sans-serif;
+    font-family: 'fontePlay',sans-serif;
     font-size: 16px;
     color: #000;
     font-weight: 400;
@@ -27,6 +33,22 @@ body{
 .divPagePar{
     height: 680px;
     background-color: white;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    font-family: 'fontePlay',sans-serif;
+}
+
+.divPagePar h3, .divPageAboutUs h3 {
+    font-size: 55px;
+}
+
+.divPagePar h5, .divPageAboutUs h5 {
+    font-size: 24px;
+}
+
+.divPagePar p, .divPageAboutUs p {
+    font-size: 14px;
 }
 
 /* HEADER */
@@ -66,3 +88,44 @@ body{
     background: url("http://localhost/BS-tobias_arantes/wordpress/wp-content/uploads/2019/01/logo-mobile.png") center center;
 }
 
+
+/* ABOUT US */
+.divPageAboutUs{
+    width: 100%;
+    height: 680px;
+    background-color: white;
+    display: flex;
+}
+
+@media screen and (min-width: 770px){
+    .divPagePar h3, .divPageAboutUs h3 {
+        font-size: 90px;
+    }
+
+    .divPagePar h5, .divPageAboutUs h5 {
+        font-size: 30px;
+    }
+
+    
+
+
+}
+
+@media screen and (min-width: 991px){
+    /* ABOUT US */
+    .divPageAboutUs{
+        padding-left: 15%;
+        padding-right: 15%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: right;
+    }
+    .aboutImg{
+        display: inline-block;
+        width: 60%;
+    }
+    .aboutText{
+        display: inline-block;
+        width: 40%;
+    }
+}

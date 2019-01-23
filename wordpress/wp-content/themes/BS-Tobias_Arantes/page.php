@@ -1,1 +1,0 @@
-<!-- Arquivo que vai abrir as paginas estaticas -->

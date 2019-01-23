@@ -9,6 +9,7 @@
     <!-- responsavel por pegar o css do style -->
     <!-- verifica se na raiz do site tem um arquivo chamado style.css -->
     <link rel="stylesheet" href="<?php bloginfo( 'stylesheet_url' ); ?>">
+    <link rel="stylesheet" type="text/css" href="style.css">
 
     <!-- puxa todos os scripts do wp para o site (animacoes, etc) -->
     <?php wp_head(); ?>
@@ -32,7 +33,7 @@
                 dsadasas
             </div>
             <div class="headerRight">
-                22222222222
+                11111111111
             </div>
             
         </div>
