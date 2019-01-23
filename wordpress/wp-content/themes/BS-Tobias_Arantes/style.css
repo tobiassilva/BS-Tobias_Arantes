@@ -10,7 +10,7 @@ Version: 1.0
 
 @font-face{
     font-family: 'fontePlay';
-    src: url("assets/fonts/PlayfairDisplaySC-Regular.otf");
+    src: url("assets/fonts/PlayfairDisplay-Bold.otf");
 }
 
 
@@ -25,6 +25,11 @@ body{
     background-color: #fff;
 }
 
+img{
+	max-width:100%;
+	height:auto;
+}
+
 .divPageImpar{
     height: 680px;
     background-color: #1f282e;
@@ -35,12 +40,21 @@ body{
     background-color: white;
 }
 
+/* CARACTERES */
 h1, h2, h3, h4, h5, h6, p {
     font-family: 'fontePlay',sans-serif;
 }
 
+h3 { /* Tamanho da Quebra de Linha */
+    line-height: 0.9;
+}
+
+h5 {
+    line-height: 1.2;
+}
+
 .divPagePar h3, .divPageAboutUs h3 {
-    font-size: 55px;
+    font-size: 65px;
 }
 
 .divPagePar h5, .divPageAboutUs h5 {
@@ -97,35 +111,70 @@ h1, h2, h3, h4, h5, h6, p {
     display: flex;
 }
 
+
+.divAboutImgBack{
+    width: 100%;
+    height: 100%;
+    display:         flex;
+    display: -webkit-flex; /* Garante compatibilidade com navegador Safari. */
+
+    justify-content: center;
+    align-items: center;
+}
+
+#aboutImgBack {
+}
+
+
+
+
+
+/* RESOLUÇÕES */
+
+/* ACIMA DE 770px */
 @media screen and (min-width: 770px){
+
+    /* HEADER */
+    .topo{
+        background-color: rgba(251, 251, 251, 0);
+    }
+    
+    /* CARACTERES */
     .divPagePar h3, .divPageAboutUs h3 {
-        font-size: 90px;
+        font-size: 110px;
     }
 
     .divPagePar h5, .divPageAboutUs h5 {
-        font-size: 30px;
+        font-size: 36px;
     }
-
-    
 
 
 }
 
+
+/* ACIMA DE 991px */
 @media screen and (min-width: 991px){
+
     /* ABOUT US */
     .divPageAboutUs{
         padding-left: 15%;
         padding-right: 15%;
-        margin-left: auto;
-        margin-right: auto;
         text-align: right;
     }
     .aboutImg{
         display: inline-block;
-        width: 60%;
+        width: 70%;
+        height: 100%;
     }
     .aboutText{
         display: inline-block;
-        width: 40%;
+        width: 30%;
     }
+
+    .divAboutImgBack{
+        width: 70%;
+    }
+
+
+
 }

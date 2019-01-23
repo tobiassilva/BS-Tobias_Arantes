@@ -4,24 +4,24 @@
 
 <div class="divPageAboutUs">
     <div class="aboutImg">
-        <h1>asdsdThere are many variations of passages of Lorem Ipsum available, 
-            but the majority have suffered alteration in some form, by injected humour, 
-            or randomised words which don't look even slightly believable</h1>
+        <div class="divAboutImgBack">
+            <img  src="<?php the_field('back_image'); ?>" id="aboutImgBack"/>
+        </div>
+        
     </div>
 
     <div class="aboutText">
-        <h3><?php the_field('titulo'); ?></h3>
-        <h5>Awesome Ideasa creative agencyfrom earth</h5>
-        <p>There are many variations of passages of Lorem Ipsum available, 
-            but the majority have suffered alteration in some form, by injected humour, 
-            or randomised words which don't look even slightly believable</p>
+        <h3 style="margin: 0;"><?php the_field('titulo'); ?></h3>
+        <h5 style="margin: 35px 0 0 0;"><?php the_field('sub_titulo'); ?></h5>
+        <p style="margin: 40px 0 0 0;;"><?php the_field('texto1'); ?></p>
 
-        <p>There are many variations of passages of Lorem Ipsum available, 
-            but the majority have suffered alteration in some form, by injected humour, 
-            or randomised words which don't look even slightly believable</p>
+        <p><?php the_field('texto2');?></p>
     </div>
     
 </div>
+
+
+
 
 <!-- SERVICE -->
 
