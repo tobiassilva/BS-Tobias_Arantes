@@ -20,9 +20,9 @@
 	
 
     <div class="aboutText">
-        <h3 style="margin: 0;"><?php the_field('titulo'); ?></h3>
-        <h5 style="margin: 35px 0 0 0;"><?php the_field('sub_titulo'); ?></h5>
-        <p style="margin: 40px 0 0 0;"><?php the_field('texto1'); ?></p>
+        <h3><?php the_field('titulo'); ?></h3>
+        <h5><?php the_field('sub_titulo'); ?></h5>
+        <p><?php the_field('texto1'); ?></p>
 
         <p><?php the_field('texto2');?></p>
     </div>
@@ -34,25 +34,93 @@
 
 <!-- SERVICE -->
 
-<div style="height: 680px; background-color: rgb(65, 94, 98)">
-	<ul>
-		<?php
-		define( 'WP_USE_THEMES', false );
-		include('esenergy/wp-load.php'); // Blog path
-		function recentPosts() {
-			$rPosts = new WP_Query();
-			$rPosts->query('showposts=1');
-				while ($rPosts->have_posts()) : $rPosts->the_post(); ?>
-					<li>
-						<a href="<?php the_permalink();?>"><?php the_post_thumbnail('recent-thumbnails'); ?></a>
-						<h2><a href="<?php the_permalink(); ?>"><?php the_title();?></a></h2>
-					</li>   
-				<?php endwhile; 
-			wp_reset_query();
-		}
-		?>
-	</ul>
-	<?php echo recentPosts(); ?>
+<div class="divPageService" class="fontColor">
+	
+	
+		
+	<div class="serviceGrande">
+		<div class="serviceImg" style="padding-right: 25px;">
+			<img src="<?php the_field('service_image') ?>"/>
+		</div>
+		
+		<div class="serviceText">
+			<?php
+				global $post;
+				$args = array( 'posts_per_page' => 1 );
+				$lastposts = get_posts( $args );
+				foreach ( $lastposts as $post ) : setup_postdata( $post ); ?>
+					
+					<h3 class="tituloSecao"><?php the_title(); ?></h3>
+					
+					<div style="width: 60%;float: right;">
+						<h5 class="subTituloSecao"><?php the_content(); ?> </h5>
+					</div>
+				
+			<?php endforeach; 
+			wp_reset_postdata(); ?>
+			
+			<div style="float: right;display: flex;margin-top: 30px;padding-left: 25px;">
+				
+				<div class="serviceTextoIcon">
+					<h6 class="tituloSecao"><?php the_field('service_tituloicon1') ?></h6>
+					<p class="subTituloSecao" style="margin: 5px 0 0 0 !important;"><?php the_field('service_textoicon1') ?></p>
+				</div>
+				<img src="<?php the_field('service_icon1')?>" style="width: 75px;height: 75px; border-radius: 50%;display: inline-block;"/>
+			</div>
+			<div style="float: right;display: flex;margin-top: 30px;padding-left: 25px;">
+				
+				<div class="serviceTextoIcon">
+					<h6 class="tituloSecao"><?php the_field('service_tituloicon2') ?></h6>
+					<p class="subTituloSecao" style="margin: 5px 0 0 0 !important;"><?php the_field('service_textoicon2') ?></p>
+				</div>
+				<img src="<?php the_field('service_icon2')?>" style="width: 75px;height: 75px; border-radius: 50%;display: inline-block;"/>
+			</div>
+			
+		</div>
+	</div>
+	
+	
+	<div class="servicePequeno">
+		<div class="serviceText">
+			<?php
+				global $post;
+				$args = array( 'posts_per_page' => 1 );
+				$lastposts = get_posts( $args );
+				foreach ( $lastposts as $post ) : setup_postdata( $post ); ?>
+				
+					<h3 class="tituloSecao"><?php the_title(); ?></h3>
+					
+					<h5 class="subTituloSecao"><?php the_content(); ?> </h5>
+				
+				
+			<?php endforeach; 
+			wp_reset_postdata(); ?>
+			
+			<div style="display: flex;margin-top: 30px;">
+				
+				<div class="serviceTextoIcon">
+					<h6 class="tituloSecao"><?php the_field('service_tituloicon1') ?></h6>
+					<p class="subTituloSecao" style="margin: 5px 0 0 0 !important;"><?php the_field('service_textoicon1') ?></p>
+				</div>
+				<img src="<?php the_field('service_icon1')?>" style="width: 75px;height: 75px; border-radius: 50%;display: inline-block;"/>
+			</div>
+			
+			<div style="display: flex;margin-top: 30px;">
+				
+				<div class="serviceTextoIcon">
+					<h6 class="tituloSecao"><?php the_field('service_tituloicon2') ?></h6>
+					<p class="subTituloSecao" style="margin: 5px 0 0 0 !important;"><?php the_field('service_textoicon2') ?></p>
+				</div>
+				<img src="<?php the_field('service_icon2')?>" style="width: 75px;height: 75px; border-radius: 50%;display: inline-block;"/>
+			</div>
+		</div>
+		
+		<div class="serviceImg">
+			<img src="<?php the_field('service_image') ?>"/>
+		</div>
+	</div>
+	
+	
 </div>
 
 <!-- WORK -->
