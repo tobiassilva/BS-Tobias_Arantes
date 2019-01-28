@@ -20,11 +20,11 @@
 	
 
     <div class="aboutText">
-        <h3><?php the_field('titulo'); ?></h3>
-        <h5><?php the_field('sub_titulo'); ?></h5>
-        <p><?php the_field('texto1'); ?></p>
+        <h3><?php the_field('abouttitulo'); ?></h3>
+        <h5><?php the_field('about_sub_titulo'); ?></h5>
+        <p><?php the_field('about_texto1'); ?></p>
 
-        <p><?php the_field('texto2');?></p>
+        <p><?php the_field('about_texto2');?></p>
     </div>
     
 </div>
@@ -125,8 +125,29 @@
 
 <!-- WORK -->
 
-<div class="divPagePar">
-WORK
+<div class="divPageOurWorks">
+    <div class="worksImg">
+		<div class="divWorksImg">
+			<?php if ( function_exists( 'envira_gallery' ) ) { envira_gallery( '159' ); } ?>
+			
+		</div>
+        
+    </div>
+	<!--<div style="width: 100%; height: 200px; background-color: blue;">
+	
+	</div>-->
+	
+
+    <div class="workText">
+        <h3><?php the_field('works_titulo'); ?></h3>
+        <h5><?php the_field('works_subtitulo'); ?></h5>
+        <p><?php the_field('works_texto'); ?></p>
+
+		<a target="_blank" href="<?php the_field('works_url_botao');?>">
+			<button class="botao botao_orange botao_margem"><?php the_field('works_texto_botao');?></button>
+		</a>
+    </div>
+    
 </div>
 
 <!-- TEAM -->
