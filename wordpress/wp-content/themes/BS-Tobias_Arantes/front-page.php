@@ -152,8 +152,28 @@
 
 <!-- TEAM -->
 
-<div style="height: 680px; background-color: rgb(26, 106, 123)">
-TEAM
+<div class="divPageTeam">
+	<div class="teamImg">
+		<div class="divTeamImg">
+			<?php if ( function_exists( 'envira_gallery' ) ) { envira_gallery( '178' ); } ?>
+			
+		</div>
+        
+    </div>
+	<!--<div style="width: 100%; height: 200px; background-color: blue;">
+	
+	</div>-->
+	
+
+    <div class="teamText">
+        <h3 class="tituloSecao"><?php the_field('team_titulo'); ?></h3>
+        <h5 class="subTituloSecao"><?php the_field('team_sub_titulo'); ?></h5>
+        <p class="subTituloSecao"><?php the_field('team_texto'); ?></p>
+
+		<a target="_blank" href="<?php the_field('team_url_botao');?>">
+			<button class="botao botao_orange botao_margem"><?php the_field('team_texto_botao');?></button>
+		</a>
+    </div>
 </div>
 
 <!-- JOIN US -->

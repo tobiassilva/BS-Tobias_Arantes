@@ -1,0 +1,175 @@
+0000.002 (0) Opened log file at time: Mon, 28 Jan 2019 17:08:14 +0000 on http://localhost/BS-tobias_arantes/wordpress
+0000.031 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.4 WP: 5.0.3 PHP: 5.6.25 (apache2handler, Windows NT LAPTOP-I25ANR10 10.0 build 17134 (Windows 10) AMD64) MySQL: 5.7.14 WPLANG: pt_BR Server: Apache/2.4.23 (Win64) PHP/5.6.25 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 55.4M | 56M) multisite: N openssl: OpenSSL 1.0.1t  3 May 2016 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.035 (0) Free space on disk containing Updraft's temporary directory: 272569 MB
+0000.109 (0) Tasks: Backup files: 1 (schedule: unset) Backup DB: 1 (schedule: unset)
+0000.192 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.281 (0) Set semaphore last lock (fd) time to 2019-01-28 17:08:14
+0000.285 (0) Semaphore lock (fd) complete
+0000.305 (0) Backup run: resumption=0, nonce=6dae29178ec8, file_nonce=6dae29178ec8 begun at=1548695294 (0s ago), job type=backup
+0000.312 (0) Scheduling a resumption (1) after 300 seconds (1548695594) in case this run gets aborted
+0000.512 (0) Checking if we have a zip executable available
+0000.520 (0) Creation of backups of directories: beginning
+0000.577 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0014.325 (0) Total entities for the zip file: 279 directories, 1825 files (0 skipped as non-modified), 33.8 MB
+0014.480 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 1 (1) files added so far); re-opening (prior size: 0 KB)
+0015.041 (0) Zip: backup_2019-01-28-1508_BS_Tobias_Arantes_6dae29178ec8-plugins.zip.tmp: 100 files added (on-disk size: 54.5 KB)
+0015.435 (0) Zip: backup_2019-01-28-1508_BS_Tobias_Arantes_6dae29178ec8-plugins.zip.tmp: 200 files added (on-disk size: 54.5 KB)
+0015.842 (0) Zip: backup_2019-01-28-1508_BS_Tobias_Arantes_6dae29178ec8-plugins.zip.tmp: 300 files added (on-disk size: 54.5 KB)
+0016.313 (0) Zip: backup_2019-01-28-1508_BS_Tobias_Arantes_6dae29178ec8-plugins.zip.tmp: 400 files added (on-disk size: 54.5 KB)
+0016.780 (0) Zip: backup_2019-01-28-1508_BS_Tobias_Arantes_6dae29178ec8-plugins.zip.tmp: 500 files added (on-disk size: 54.5 KB)
+0016.793 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (11.5 MB, 1825 files batched, 501 (502) added so far); re-opening (prior size: 54.5 KB)
+0042.947 (0) Zip: backup_2019-01-28-1508_BS_Tobias_Arantes_6dae29178ec8-plugins.zip.tmp: 600 files added (on-disk size: 3485.4 KB)
+0043.415 (0) Zip: backup_2019-01-28-1508_BS_Tobias_Arantes_6dae29178ec8-plugins.zip.tmp: 700 files added (on-disk size: 3485.4 KB)
+0043.814 (0) Zip: backup_2019-01-28-1508_BS_Tobias_Arantes_6dae29178ec8-plugins.zip.tmp: 800 files added (on-disk size: 3485.4 KB)
+0044.438 (0) Zip: backup_2019-01-28-1508_BS_Tobias_Arantes_6dae29178ec8-plugins.zip.tmp: 900 files added (on-disk size: 3485.4 KB)
+0044.574 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (18.2 MB, 417 (919) files added so far); re-opening (prior size: 3485.4 KB)
+0064.198 (0) Zip: backup_2019-01-28-1508_BS_Tobias_Arantes_6dae29178ec8-plugins.zip.tmp: 1000 files added (on-disk size: 8551.2 KB)
+0064.906 (0) Zip: backup_2019-01-28-1508_BS_Tobias_Arantes_6dae29178ec8-plugins.zip.tmp: 1100 files added (on-disk size: 8551.2 KB)
+0065.629 (0) Zip: backup_2019-01-28-1508_BS_Tobias_Arantes_6dae29178ec8-plugins.zip.tmp: 1200 files added (on-disk size: 8551.2 KB)
+0066.409 (0) Zip: backup_2019-01-28-1508_BS_Tobias_Arantes_6dae29178ec8-plugins.zip.tmp: 1300 files added (on-disk size: 8551.2 KB)
+0066.579 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (1.5 MB, 401 (1320) files added so far); re-opening (prior size: 8551.2 KB)
+0084.338 (0) Zip: backup_2019-01-28-1508_BS_Tobias_Arantes_6dae29178ec8-plugins.zip.tmp: 1400 files added (on-disk size: 9138.3 KB)
+0086.102 (0) Zip: backup_2019-01-28-1508_BS_Tobias_Arantes_6dae29178ec8-plugins.zip.tmp: 1500 files added (on-disk size: 9138.3 KB)
+0086.575 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (1.9 MB, 241 (1561) files added so far); re-opening (prior size: 9138.3 KB)
+0098.541 (0) Zip: backup_2019-01-28-1508_BS_Tobias_Arantes_6dae29178ec8-plugins.zip.tmp: 1600 files added (on-disk size: 9680.2 KB)
+0099.291 (0) Zip: backup_2019-01-28-1508_BS_Tobias_Arantes_6dae29178ec8-plugins.zip.tmp: 1700 files added (on-disk size: 9680.2 KB)
+0099.574 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.2 MB, 170 (1731) files added so far); re-opening (prior size: 9680.2 KB)
+0105.325 (0) Zip: backup_2019-01-28-1508_BS_Tobias_Arantes_6dae29178ec8-plugins.zip.tmp: 1800 files added (on-disk size: 9828 KB)
+0109.184 (0) Created plugins zip (0) - 9963.2 KB in 108.6 s (91.8 KB/s) (sha1: 48e9e035fe9c2dc6c4f066288800de5520899ec4, sha256: c3d2ba0b7fce582d750fb0936418594452e4cfa07f01609f43444234fb70ff29)
+0109.208 (0) Beginning creation of dump of themes (split every: 400 MB)
+0110.197 (0) Total entities for the zip file: 51 directories, 215 files (0 skipped as non-modified), 5.7 MB
+0110.507 (0) Zip: backup_2019-01-28-1508_BS_Tobias_Arantes_6dae29178ec8-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0110.853 (0) Zip: backup_2019-01-28-1508_BS_Tobias_Arantes_6dae29178ec8-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0119.862 (0) Created themes zip (0) - 4181.4 KB in 10.6 s (393.4 KB/s) (sha1: db29e5aa3084f5d9d26ac5104b4958fd21472318, sha256: 0a6343a68b8290c855fb866efa895b5a3731d5ef63605aaa3d78189882d4f155)
+0120.045 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0120.049 (0) Looking for candidates to backup in: C:\wamp64\www\BS-Tobias_Arantes\wordpress/wp-content/uploads
+0120.061 (0) finding files: 2019: adding to list (1)
+0120.064 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0120.765 (0) Total entities for the zip file: 2 directories, 121 files (0 skipped as non-modified), 13.8 MB
+0121.246 (0) Zip: backup_2019-01-28-1508_BS_Tobias_Arantes_6dae29178ec8-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0128.929 (0) Created uploads zip (0) - 13779.1 KB in 8.8 s (1565.4 KB/s) (sha1: ffb15ec613965bafdea1662150f8d5d3a350061e, sha256: 44c6e8f59b6963e04f528ce91aca071c38cbed28379d3db3fbd7af85a6b1bd45)
+0128.963 (0) Beginning backup of other directories found in the content directory (index: 0)
+0128.968 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0128.972 (0) Looking for candidates to backup in: C:\wamp64\www\BS-Tobias_Arantes\wordpress/wp-content
+0128.976 (0) finding files: index.php: adding to list (1)
+0128.979 (0) finding files: languages: adding to list (2)
+0128.982 (0) finding files: plugins: skipping: this is the plugins directory
+0128.986 (0) finding files: themes: skipping: this is the themes directory
+0128.989 (0) finding files: updraft: skipping: this is the updraft directory
+0128.993 (0) finding files: upgrade: skipping: excluded by options
+0128.997 (0) finding files: uploads: skipping: this is the uploads directory
+0130.289 (0) Total entities for the zip file: 3 directories, 28 files (0 skipped as non-modified), 2 MB
+0133.292 (0) Created others zip (0) - 595.1 KB in 4.2 s (140.7 KB/s) (sha1: fa182cdc4655208565896c84c6869db8cfb581c9, sha256: 0e0306ab7044ddd8385400d621e2406d5acbf774374717303a78040974e4215d)
+0133.349 (0) Saving backup status to database (elements: 8)
+0133.359 (0) Beginning creation of database dump (WordPress DB)
+0139.790 (0) Testing potential mysqldump binary: C:\Program Files\MySQL\MySQL Workbench 6.3 CE\mysqldump.exe
+0142.804 (0) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\nDROP TABLE IF EXISTS `wp_bs_options`;\n/*!40101 SET @saved_cs_client     = @@character_set_client */;\n/*!40101 SET character_set_client = utf8 */;\n (truncated - 1243 bytes total)
+0142.817 (0) Binary mysqldump: error (code: 2)
+0143.404 (0) Table wp_bs_options: Total expected rows (approximate): 164
+0143.493 (0) Table wp_bs_options: Total rows added: 160 in 0.09 seconds
+0143.504 (0) Table wp_bs_options: finishing file (backup_2019-01-28-1508_BS_Tobias_Arantes_6dae29178ec8-db-table-wp_bs_options.table.gz - 7.9 KB)
+0143.520 (0) Table wp_bs_users: Total expected rows (approximate): 1
+0143.577 (0) Table wp_bs_users: Total rows added: 1 in 0.05 seconds
+0143.583 (0) Table wp_bs_users: finishing file (backup_2019-01-28-1508_BS_Tobias_Arantes_6dae29178ec8-db-table-wp_bs_users.table.gz - 0.6 KB)
+0143.783 (0) Table wp_bs_usermeta: Total expected rows (approximate): 24
+0143.792 (0) Table wp_bs_usermeta: Total rows added: 24 in 0.01 seconds
+0143.805 (0) Table wp_bs_usermeta: finishing file (backup_2019-01-28-1508_BS_Tobias_Arantes_6dae29178ec8-db-table-wp_bs_usermeta.table.gz - 1.2 KB)
+0143.849 (0) Table wp_bs_commentmeta: Total expected rows (approximate): 0
+0143.855 (0) Table wp_bs_commentmeta: Total rows added: 0 in 0.00 seconds
+0143.865 (0) Table wp_bs_commentmeta: finishing file (backup_2019-01-28-1508_BS_Tobias_Arantes_6dae29178ec8-db-table-wp_bs_commentmeta.table.gz - 0.4 KB)
+0143.881 (0) Table wp_bs_comments: Total expected rows (approximate): 1
+0143.923 (0) Table wp_bs_comments: Total rows added: 1 in 0.04 seconds
+0143.933 (0) Table wp_bs_comments: finishing file (backup_2019-01-28-1508_BS_Tobias_Arantes_6dae29178ec8-db-table-wp_bs_comments.table.gz - 0.7 KB)
+0143.949 (0) Table wp_bs_links: Total expected rows (approximate): 0
+0143.956 (0) Table wp_bs_links: Total rows added: 0 in 0.00 seconds
+0143.966 (0) Table wp_bs_links: finishing file (backup_2019-01-28-1508_BS_Tobias_Arantes_6dae29178ec8-db-table-wp_bs_links.table.gz - 0.4 KB)
+0144.012 (0) Table wp_bs_postmeta: Total expected rows (approximate): 909
+0144.135 (0) Table wp_bs_postmeta: Total rows added: 909 in 0.12 seconds
+0144.147 (0) Table wp_bs_postmeta: finishing file (backup_2019-01-28-1508_BS_Tobias_Arantes_6dae29178ec8-db-table-wp_bs_postmeta.table.gz - 9.8 KB)
+0144.163 (0) Table wp_bs_posts: Total expected rows (approximate): 120
+0144.239 (0) Table wp_bs_posts: Total rows added: 120 in 0.07 seconds
+0144.251 (0) Table wp_bs_posts: finishing file (backup_2019-01-28-1508_BS_Tobias_Arantes_6dae29178ec8-db-table-wp_bs_posts.table.gz - 8.2 KB)
+0144.292 (0) Table wp_bs_term_relationships: Total expected rows (approximate): 3
+0144.300 (0) Table wp_bs_term_relationships: Total rows added: 3 in 0.00 seconds
+0144.310 (0) Table wp_bs_term_relationships: finishing file (backup_2019-01-28-1508_BS_Tobias_Arantes_6dae29178ec8-db-table-wp_bs_term_relationships.table.gz - 0.4 KB)
+0144.325 (0) Table wp_bs_term_taxonomy: Total expected rows (approximate): 3
+0144.332 (0) Table wp_bs_term_taxonomy: Total rows added: 3 in 0.00 seconds
+0144.344 (0) Table wp_bs_term_taxonomy: finishing file (backup_2019-01-28-1508_BS_Tobias_Arantes_6dae29178ec8-db-table-wp_bs_term_taxonomy.table.gz - 0.4 KB)
+0144.380 (0) Table wp_bs_termmeta: Total expected rows (approximate): 0
+0144.386 (0) Table wp_bs_termmeta: Total rows added: 0 in 0.00 seconds
+0144.398 (0) Table wp_bs_termmeta: finishing file (backup_2019-01-28-1508_BS_Tobias_Arantes_6dae29178ec8-db-table-wp_bs_termmeta.table.gz - 0.4 KB)
+0144.413 (0) Table wp_bs_terms: Total expected rows (approximate): 3
+0144.420 (0) Table wp_bs_terms: Total rows added: 3 in 0.00 seconds
+0144.432 (0) Table wp_bs_terms: finishing file (backup_2019-01-28-1508_BS_Tobias_Arantes_6dae29178ec8-db-table-wp_bs_terms.table.gz - 0.4 KB)
+0144.448 (0) backup_2019-01-28-1508_BS_Tobias_Arantes_6dae29178ec8-db-table-wp_bs_options.table.gz (1/12): adding to final database dump
+0144.456 (0) backup_2019-01-28-1508_BS_Tobias_Arantes_6dae29178ec8-db-table-wp_bs_users.table.gz (2/12): adding to final database dump
+0144.460 (0) backup_2019-01-28-1508_BS_Tobias_Arantes_6dae29178ec8-db-table-wp_bs_usermeta.table.gz (3/12): adding to final database dump
+0144.465 (0) backup_2019-01-28-1508_BS_Tobias_Arantes_6dae29178ec8-db-table-wp_bs_commentmeta.table.gz (4/12): adding to final database dump
+0144.469 (0) backup_2019-01-28-1508_BS_Tobias_Arantes_6dae29178ec8-db-table-wp_bs_comments.table.gz (5/12): adding to final database dump
+0144.473 (0) backup_2019-01-28-1508_BS_Tobias_Arantes_6dae29178ec8-db-table-wp_bs_links.table.gz (6/12): adding to final database dump
+0144.477 (0) backup_2019-01-28-1508_BS_Tobias_Arantes_6dae29178ec8-db-table-wp_bs_postmeta.table.gz (7/12): adding to final database dump
+0144.499 (0) backup_2019-01-28-1508_BS_Tobias_Arantes_6dae29178ec8-db-table-wp_bs_posts.table.gz (8/12): adding to final database dump
+0144.510 (0) backup_2019-01-28-1508_BS_Tobias_Arantes_6dae29178ec8-db-table-wp_bs_term_relationships.table.gz (9/12): adding to final database dump
+0144.514 (0) backup_2019-01-28-1508_BS_Tobias_Arantes_6dae29178ec8-db-table-wp_bs_term_taxonomy.table.gz (10/12): adding to final database dump
+0144.519 (0) backup_2019-01-28-1508_BS_Tobias_Arantes_6dae29178ec8-db-table-wp_bs_termmeta.table.gz (11/12): adding to final database dump
+0144.523 (0) backup_2019-01-28-1508_BS_Tobias_Arantes_6dae29178ec8-db-table-wp_bs_terms.table.gz (12/12): adding to final database dump
+0144.534 (0) backup_2019-01-28-1508_BS_Tobias_Arantes_6dae29178ec8-db.gz: finished writing out complete database file (24 KB)
+0144.562 (0) Total database tables backed up: 12 (backup_2019-01-28-1508_BS_Tobias_Arantes_6dae29178ec8-db.gz, size: 29147, sha256)
+0144.587 (0) backup_2019-01-28-1508_BS_Tobias_Arantes_6dae29178ec8-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0144.591 (0) backup_2019-01-28-1508_BS_Tobias_Arantes_6dae29178ec8-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0144.596 (0) backup_2019-01-28-1508_BS_Tobias_Arantes_6dae29178ec8-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0144.600 (0) backup_2019-01-28-1508_BS_Tobias_Arantes_6dae29178ec8-others.zip: others: This file has not yet been successfully uploaded: will queue
+0144.604 (0) backup_2019-01-28-1508_BS_Tobias_Arantes_6dae29178ec8-db.gz: db: This file has not yet been successfully uploaded: will queue
+0144.607 (0) Saving backup history. Total backup size: 27.9 MB
+0144.618 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0144.628 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0144.632 (0) No remote despatch: user chose no remote backup service
+0144.636 (0) Recording as successfully uploaded: backup_2019-01-28-1508_BS_Tobias_Arantes_6dae29178ec8-plugins.zip
+0144.684 (0) Recording as successfully uploaded: backup_2019-01-28-1508_BS_Tobias_Arantes_6dae29178ec8-themes.zip
+0144.690 (0) Recording as successfully uploaded: backup_2019-01-28-1508_BS_Tobias_Arantes_6dae29178ec8-uploads.zip
+0144.697 (0) Recording as successfully uploaded: backup_2019-01-28-1508_BS_Tobias_Arantes_6dae29178ec8-others.zip
+0144.705 (0) Recording as successfully uploaded: backup_2019-01-28-1508_BS_Tobias_Arantes_6dae29178ec8-db.gz
+0144.719 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0144.724 (0) Number of backup sets in history: 3; groups (db): 1
+0144.727 (0) Examining (for databases) backup set with group_id=0, nonce=6dae29178ec8, datestamp=1548695294 (Jan 28 2019 17:08:14)
+0144.730 (0) This backup set is the backup set just made, so will not be deleted.
+0144.730 (0) Examining (for databases) backup set with group_id=0, nonce=e026ebed49cd, datestamp=1548679352 (Jan 28 2019 12:42:32)
+0144.731 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0144.734 (0) Examining (for databases) backup set with group_id=0, nonce=9821243ec1a4, datestamp=1548102447 (Jan 21 2019 20:27:27)
+0144.734 (0) 1548102447: db: this set includes a database (backup_2019-01-21-1827_BS_Tobias_Arantes_9821243ec1a4-db.gz); db count is now 2
+0144.734 (0) 1548102447: db: over retain limit (2); will delete this database
+0144.734 (0) Delete file: backup_2019-01-21-1827_BS_Tobias_Arantes_9821243ec1a4-db.gz, service=none
+0144.738 (0) Deleting local copy (backup_2019-01-21-1827_BS_Tobias_Arantes_9821243ec1a4-db.gz)
+0144.745 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0144.748 (0) Number of backup sets in history: 3; groups (files): 1
+0144.751 (0) Examining (for files) backup set with nonce=6dae29178ec8, datestamp=1548695294 (Jan 28 2019 17:08:14)
+0144.751 (0) This backup set is the backup set just made, so will not be deleted.
+0144.754 (0) This backup set is the backup set just made, so will not be deleted.
+0144.755 (0) This backup set is the backup set just made, so will not be deleted.
+0144.757 (0) This backup set is the backup set just made, so will not be deleted.
+0144.758 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0144.761 (0) Examining (for files) backup set with nonce=e026ebed49cd, datestamp=1548679352 (Jan 28 2019 12:42:32)
+0144.761 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0144.762 (0) Examining (for files) backup set with nonce=9821243ec1a4, datestamp=1548102447 (Jan 21 2019 20:27:27)
+0144.763 (0) plugins: over retain limit (2); will delete this file entity
+0144.763 (0) themes: over retain limit (2); will delete this file entity
+0144.763 (0) uploads: over retain limit (2); will delete this file entity
+0144.763 (0) others: over retain limit (2); will delete this file entity
+0144.763 (0) Delete file: backup_2019-01-21-1827_BS_Tobias_Arantes_9821243ec1a4-plugins.zip, service=none
+0144.768 (0) Deleting local copy (backup_2019-01-21-1827_BS_Tobias_Arantes_9821243ec1a4-plugins.zip)
+0144.771 (0) Delete file: backup_2019-01-21-1827_BS_Tobias_Arantes_9821243ec1a4-themes.zip, service=none
+0144.776 (0) Deleting local copy (backup_2019-01-21-1827_BS_Tobias_Arantes_9821243ec1a4-themes.zip)
+0144.779 (0) Delete file: backup_2019-01-21-1827_BS_Tobias_Arantes_9821243ec1a4-uploads.zip, service=none
+0144.784 (0) Deleting local copy (backup_2019-01-21-1827_BS_Tobias_Arantes_9821243ec1a4-uploads.zip)
+0144.787 (0) Delete file: backup_2019-01-21-1827_BS_Tobias_Arantes_9821243ec1a4-others.zip, service=none
+0144.792 (0) Deleting local copy (backup_2019-01-21-1827_BS_Tobias_Arantes_9821243ec1a4-others.zip)
+0144.800 (0) This backup set is now empty; will remove from history
+0144.804 (0) Deleting log file (log.9821243ec1a4.txt)
+0144.808 (0) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0144.821 (0) Resume backup (6dae29178ec8, 0): finish run
+0144.847 (0) Decremented the semaphore (fd) by 1
+0144.851 (0) Semaphore (fd) unlocked
+0144.854 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0144.863 (0) The backup apparently succeeded and is now complete
+0144.867 (0) No email will/can be sent - the user has not configured an email address.
+0144.870 (0) O backup aparentemente foi bem sucedido e está completo agora.

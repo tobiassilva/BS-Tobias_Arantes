@@ -13,7 +13,6 @@ Version: 1.0
     src: url("assets/fonts/PlayfairDisplay-Bold.otf");
 }
 
-
 body{
     padding: 0px;
     margin: 0px;
@@ -262,7 +261,44 @@ p {
 	display : table-header-group;
 }
 
+/* TEAM */
 
+.divPageTeam {
+	background-color: rgb(26, 106, 123);
+	width: 100%;
+    height: 1100px;
+    display: table;
+	padding-left: 8%;
+    padding-right: 8%;
+	padding-top: 140px;
+}
+
+.teamImg{
+	width: 100%;
+	height: 600px;
+}
+.divTeamImg{
+	padding: 60px 0;
+    width: 100%;
+    height: 100%;
+    display:         flex;
+    display: -webkit-flex; /* Garante compatibilidade com navegador Safari. */
+
+    justify-content: center;
+    align-items: center;
+}
+
+.teamImg{
+	display : table-footer-group;
+}
+
+.teamText{
+	display : table-header-group;
+}
+
+#envira-gallery-178 .envira-gallery-image { /* Plugin Galeria Envira (Team) */
+	border: 15px solid #ddd; 
+}
 
 /* RESOLUÇÕES */
 
@@ -407,6 +443,31 @@ p {
     }
 
     .divWorksImg{
+        width: 100%;
+		padding: 0;
+    }
+	
+	/* TEAM */
+	.divPageTeam{
+		height: 850px;
+        padding-left: 10%;
+        padding-right: 10%;
+        text-align: right;
+		display: flex;
+    }
+    .teamImg{
+        display: inline-block;
+        width: 65%;
+		height: 100%;
+    }
+    .teamText{
+		margin-top: 5%;
+		margin-left: 10%;
+        display: inline-block;
+        width: 35%;
+    }
+
+    .divTeamImg{
         width: 100%;
 		padding: 0;
     }
